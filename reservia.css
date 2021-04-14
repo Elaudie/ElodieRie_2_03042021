@@ -302,39 +302,28 @@ span {
 
 /*Activités à Marseille*/
 
-.aMarseille {
-    display: grid;
-    height: auto;
+.blocactivite {
     width: auto;
-    margin-bottom: 25px;
-    justify-content: normal;
-    
-  }
+}
 
-  .activite img {
-    display: block;
-    width: auto;
-    height: auto;
-  }
+.activite img {
+    width: 100%;
+    height: 200px;
+}
 
-  .un img{
-      height: 75%;
-      max-width: 25%;
-      overflow: hidden;
-  }
-
-  .activite {
+.activite {
     margin-bottom: 30%;
     height: 70px;
-  }
+}
 
-  .titre-activite {
+.titre-activite {
     padding: 8px 0px 5px 20px;
     border-radius: 0 0 1.25rem 1.25rem;
+    border-color: transparent;
     box-shadow: 0 0 6px 3px #d8d7d7;
     margin-top: -2px;
-    width: 250px;
-  }
+}
+
 
 /*footer*/
 
