@@ -93,7 +93,7 @@ nav a:hover {
 /*recherche*/
 
 .recherche {
-    margin-top: 25px;
+    margin-top: 15px;
     padding-left: -15px;
 }
 
@@ -121,7 +121,6 @@ nav a:hover {
     height: 50px;
     font-size: 17px;
     font-weight: 600;
-    line-height: 50px;
     background-color: #0065FC;
     color: white;
     border: none;
@@ -133,9 +132,7 @@ nav a:hover {
 /*Filtres*/
 .filtres_container {
     display: flex;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: flex-start;
+    margin-top: 25px;
     flex-wrap: wrap;
 }
 
@@ -144,14 +141,12 @@ nav a:hover {
 }
 
 .filtres {
-    padding-top: 20px;
+    padding-top: 9px;
     display: flex;
 }
 
 .categories {
     margin-left: 30px;
-    height: 54px;
-    border-left: none;
 }
 
 .icone {
@@ -160,7 +155,6 @@ nav a:hover {
     width: 50px;
     border-radius: 50%;
     text-align: center;
-    line-height: 45px;
     color: #0065FC;
 }
 
@@ -192,9 +186,23 @@ nav a:hover {
     border-radius: 30px;
 }
 
-/*Texte important*/
-span {
-    font-weight: bold;
+.info {
+    display: flex;
+    align-items: center;
+}
+      
+.info .infos {
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    color: #0065FC;
+}
+      
+.info p {
+    margin-left: 10px;
 }
 
 /*section*/
@@ -292,6 +300,11 @@ span {
 .bloc {
     display: flex;
     justify-content: space-between;
+}
+
+/*Texte important*/
+span {
+    font-weight: bold;
 }
 
 /*Activités à Marseille*/
