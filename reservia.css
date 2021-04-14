@@ -146,43 +146,28 @@ nav a:hover {
 }
 
 .filter-container h2 {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .filtres {
     padding-top: 20px;
+    display: flex;
 }
 
-.eco {
-    border: 3px #deebff solid;
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 50px;
-    width: 185px;
+.categories {
+    margin-left: 30px;
+    height: 54px;
+    border-left: none;
 }
 
-.familial {
-    border: 3px #deebff solid;
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 50px;
-    width: 160px;
-}
-
-.romantique {
-    border: 3px #deebff solid;
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 50px;
-    width: 170px;
-}
-
-.animaux {
-    border: 3px #deebff solid;
-    border-radius: 20px;
-    padding: 10px;
-    margin-left: 50px;
-    width: 220px;
+.icone {
+    background-color: #deebff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    color: #0065FC;
 }
 
 .filtres a {
@@ -191,6 +176,27 @@ nav a:hover {
 
 .filtres a:hover {
   background: #deebff;
+}
+
+.eco {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+}
+
+.famille {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+}
+
+.romantique {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+}
+
+.animaux {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    border-left: none;
 }
 
 /*Texte important*/
