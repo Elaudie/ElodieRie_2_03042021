@@ -221,16 +221,11 @@ nav a:hover {
     border-radius: 15px;
 }
 
-.logo img {
-    max-width: 250px;
-    max-height: 250px;
-}
-
 .lien_cartes {
     text-decoration: none;
-    width: 210px;
-    margin-top: 30px;
-    height: 210px;
+    width: 235px;
+    margin-top: 10px;
+    height: 200px;
     margin-left: 20px;
     background-color: white;
     border-radius: 20px;
@@ -239,7 +234,7 @@ nav a:hover {
 
 .carte img {
     height: 120px;
-    width: 90%;
+    width: 100%;
     padding: 6px 6px 6px 6px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -249,10 +244,6 @@ nav a:hover {
     display: flex;
     flex: wrap;
     margin: 10px 10px 10px 10px;
-}
-
-.étoiles {
-    margin-bottom: 150px;
 }
  
 .lescartes {
