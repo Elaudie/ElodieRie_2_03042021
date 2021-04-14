@@ -21,7 +21,7 @@ body {
 
 #bloc_page {
     max-width: 1250px;
-    margin: 0 auto;
+    margin: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -264,8 +264,16 @@ span {
  
 .lescartes {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px 10px 10px 10px;
+}
+
+.titrepop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 .cartes_populaires {
@@ -280,14 +288,15 @@ span {
 .lien_populaire {
     text-decoration: none;
     width: 210px;
-    margin-top: 30px;
     height: 210px;
     margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .cartes_populaires img {
     float: left;
-    width: 40%;
+    width: 50%;
 }
 
 .pop {
@@ -301,28 +310,6 @@ span {
 }
 
 /*Activités à Marseille*/
-
-.blocactivite {
-    width: auto;
-}
-
-.activite img {
-    width: 100%;
-    height: 200px;
-}
-
-.activite {
-    margin-bottom: 30%;
-    height: 70px;
-}
-
-.titre-activite {
-    padding: 8px 0px 5px 20px;
-    border-radius: 0 0 1.25rem 1.25rem;
-    border-color: transparent;
-    box-shadow: 0 0 6px 3px #d8d7d7;
-    margin-top: -2px;
-}
 
 
 /*footer*/
