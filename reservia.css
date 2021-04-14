@@ -16,6 +16,7 @@ body {
 
 * {
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 #bloc_page {
@@ -203,12 +204,14 @@ span {
 }
 
 .hmarseille {
-    max-width: 70%;
+    max-width: 69%;
+    border-radius: 15px;
 }
 
 .populaires {
     max-width: 27%;
     margin-right: 20px;
+    border-radius: 15px;
 }
 
 .logo img {
