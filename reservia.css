@@ -28,11 +28,6 @@ body {
 
 /*header*/
 
-header {
-    margin-top: 50px;
-    padding: 0;
-}
-
 .navbar {
     display: flex;
     align-items: center;
@@ -48,16 +43,6 @@ header {
 }
 
 /*menu navigation*/
-.menu {
-    display: flex;
-}
-
-.navmenu {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .menu ul {
     align-items: center;
     justify-content: space-around;
@@ -76,12 +61,12 @@ header {
 
 .navigation {
     color: black;
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 nav a:hover {
     border-top: 2px solid #0065FC;
-    padding: 48px;
+    padding: 56px;
     color: #0065FC;
 }
 
@@ -89,12 +74,12 @@ nav a:hover {
 .inscription {
     font-weight: bold;
     color: #0065FC;
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 .titre2 {
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .titre2 h2 {
@@ -102,7 +87,7 @@ nav a:hover {
 }
 
 .titre2 p {
-    margin-top: 5px;
+    margin-top: -10px;
 }
 
 /*recherche*/
