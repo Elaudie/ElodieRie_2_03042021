@@ -425,10 +425,10 @@ span {
     text-decoration: none;
 }
 
-.titre-activite {
-    box-shadow: 0 0 5px 4px #d7d7d7;
+.activitesmarseille {
+    box-shadow: 0 0 6px 3px #d8d7d7;
+    border-radius: 15px;
 }
-
 /*footer*/
 
 .A_propos {
