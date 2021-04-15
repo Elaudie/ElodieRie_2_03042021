@@ -233,7 +233,7 @@ nav a:hover {
 
 .hmarseille, .populaires { 
     background-color: #F2F2F2;
-    height: 640px;
+    height: 610px;
 }
 
 .hmarseille {
@@ -279,14 +279,15 @@ nav a:hover {
     margin: 10px 10px 10px 10px;
 }
 
-/*Problème ici, une seule valeur fonctionne (margin*/
 .afficher_plus {
-    text-decoration: none;
-    color: black;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 50px;
 }
-/*Problème ici, une seule valeur fonctionne (margin)*/
+
+.plus {
+text-decoration: none;
+color: black;
+}
 
 /*populaires*/
 
@@ -324,11 +325,14 @@ nav a:hover {
     height: 100%;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
-    border-radius: 15px
+    border-radius: 15px;
+    margin-top: 7px;
+    margin-left: 10px;
 }
 
 .cartes_populaires2 {
-    margin: 30px 5px 0;
+    margin-top: 30px;
+    margin-left: 10px;
     display: flex;
     width: 94%;
     height: 100%;
@@ -336,9 +340,12 @@ nav a:hover {
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px
 }
+
+.lien_populaire {
+    text-decoration: none;
+}
   
 .lien_populaire img {
-    text-decoration: none;
     width: 125px;
     height: 135px;
     margin: 5px;
@@ -348,7 +355,7 @@ nav a:hover {
   
 .description {
     display: flex;
-    margin-top: -135px;
+    margin-top: -155px;
     margin-left: 150px;
 }
   
@@ -362,11 +369,15 @@ nav a:hover {
     font-size: 15px;
     color: black;
     text-decoration: none;
+    margin-bottom: 38px;
 }
-  
-.courbes {
-    font-size: 25px;
-    margin: 5px 10px 0 0;
+
+.popétoiles {
+    font-size: 0.90em;
+    margin-top: -5px;
+    margin-left: 10px;
+    color: #0065fc; 
+    margin-bottom: 10px;
 }
 
 /*Texte important*/
@@ -376,6 +387,47 @@ span {
 
 /*Activités à Marseille*/
 
+.amarseille {
+    margin-top: 70px;
+}
+
+.activites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bloc1 {
+    width: 23%;
+}
+
+.blocactivite {
+    width: 23%;
+}
+
+.activitem img, .activitema img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.activitema img {
+    width : 100%;
+    height: 460px;
+}
+
+.activitem img {
+    max-height: 205px;
+}
+
+.activitem, .activitema {
+    color: black;
+    text-decoration: none;
+}
+
+.titre-activite {
+    box-shadow: 0 0 5px 4px #d7d7d7;
+}
 
 /*footer*/
 
