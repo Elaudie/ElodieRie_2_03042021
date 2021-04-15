@@ -129,6 +129,7 @@ nav a:hover {
     cursor: pointer;
 }
 
+/* Quelque chose ne va pas ici !*/
 /*Filtres*/
 .filtres_container {
     display: flex;
@@ -185,6 +186,7 @@ nav a:hover {
     border: 2px solid #d9d9d9;
     border-radius: 30px;
 }
+/* Quelque chose ne va pas ici !*/
 
 .info {
     display: flex;
@@ -205,35 +207,60 @@ nav a:hover {
     margin-left: 10px;
 }
 
-/*section*/
-.hmarseille, .populaires {
+/*HEBERGEMENT*/
+
+.détails h3 {
+    font-size: 0.90em;
+    color: black;
+    font-weight: bold;
+    margin-top: -3px;
+    margin-left: 10px;  
+}
+
+.détails p {
+    font-size: 0.90em;
+    color: black;
+    margin-top: -5px;
+    margin-left: 10px; 
+}
+
+.étoiles {
+    font-size: 0.90em;
+    margin-top: -5px;
+    margin-left: 10px;
+    color: #0065fc; 
+}
+
+.hmarseille, .populaires { 
     background-color: #F2F2F2;
+    height: 640px;
 }
 
 .hmarseille {
-    max-width: 69%;
+    max-width: 70%;
     border-radius: 15px;
 }
 
-.populaires {
-    max-width: 27%;
-    margin-right: 20px;
-    border-radius: 15px;
+.hmarseille h2 {
+    margin-left: 50px;
 }
 
-.lien_cartes {
+.lien_cartes, .lien_cartes2 {
     text-decoration: none;
-    width: 235px;
-    margin-top: 10px;
-    height: 200px;
-    margin-left: 20px;
+    width: 210px; 
+    height: 210px;
+    margin-left: 3px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 5px 4px #d7d7d7;
 }
 
+.lien_cartes2 {
+    margin-top: 20px; 
+}
+
 .carte img {
-    height: 120px;
+    height: 140px;
     width: 100%;
     padding: 6px 6px 6px 6px;
     border-top-left-radius: 20px;
@@ -245,12 +272,23 @@ nav a:hover {
     flex: wrap;
     margin: 10px 10px 10px 10px;
 }
- 
+
 .lescartes {
     display: flex;
     justify-content: space-around;
     margin: 10px 10px 10px 10px;
 }
+
+/*Problème ici, une seule valeur fonctionne (margin*/
+.afficher_plus {
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+/*Problème ici, une seule valeur fonctionne (margin)*/
+
+/*populaires*/
 
 .titrepop {
     display: flex;
@@ -258,6 +296,12 @@ nav a:hover {
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 5px;
+}
+
+.populaires {
+    max-width: 27%;
+    margin-right: 20px;
+    border-radius: 15px;
 }
 
 .cartes_populaires {
