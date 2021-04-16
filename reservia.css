@@ -97,6 +97,10 @@ nav a:hover {
     padding-left: -15px;
 }
 
+.icone-search {
+    display: none;
+}
+
 .search {
     height: 50px;
     padding-left: 10px;
@@ -476,4 +480,75 @@ footer h3 {
     text-decoration: none;
     margin-bottom: 12px;
     color: #000;
+}
+ 
+/*MEDIA QUERIES RESPONSIVE*/
+@media screen and (min-width: 765px) and (max-width: 1023px) {
+#bloc-page {
+    display: flex;
+}
+
+.menu {
+}
+    
+.btn {
+    display: none;
+}
+  
+.icone-search {
+    
+}
+  
+.btn .search {
+    position: relative;
+    right: 5px;
+    margin-right: 0px;
+    width: 60%;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    font-size: 18px;
+}
+  
+.filtres-container {
+    display: inline-block;
+    margin-top: -20px;
+}
+  
+.categorie {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 0;
+}
+  
+.bloc {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: normal;
+}
+  
+.hmarseille {
+    background-color: #F2F2F2;
+}
+  
+.populaires {
+    margin-bottom: 40px;
+    margin-left: 6px;
+    width: 100%;
+}
+  
+.description {
+    margin-left: 140px;
+}
+  
+.amarseille {
+    background-color: #fff;
+}
+.lien-footer {
+    font-size: 15px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+
 }
