@@ -397,11 +397,7 @@ span {
     justify-content: space-between;
 }
 
-.bloc1 {
-    width: 23%;
-}
-
-.blocactivite {
+.bloc1, .blocactivite {
     width: 23%;
 }
 
@@ -417,7 +413,7 @@ span {
 }
 
 .activitem img {
-    max-height: 205px;
+    max-height: 210px;
 }
 
 .activitem, .activitema {
@@ -429,40 +425,59 @@ span {
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
 }
+
+.titre-activite {
+    padding: 0px 0px 15px 20px;
+    color: black;
+    font-size: 16px;
+}
+
 /*footer*/
 
+footer {
+    width: auto;
+    height: 210px;
+    background-color: #F2F2F2;
+}
+  
+.footer-container {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 .A_propos {
-    margin-left: 25px;
-  }
-
-.A_propos a {
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
-
-.A_propos ul {
-    list-style-type: none;
-}
-
+  
 .Hebergements {
-    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
-
-.Hebergements a {
-    text-decoration: none;
-}
-
-.Hebergements ul {
-    list-style-type: none;
-}
-
+  
 .Assistance {
-    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
 }
-
-.Assistance a {
+  
+footer h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+  
+.lien-footer {
     text-decoration: none;
+    margin-bottom: 12px;
+    color: #000;
 }
-
-.Assistance ul {
-    list-style-type: none;
+  
+.lien-footer:hover {
+    color: #0065FC;
 }
