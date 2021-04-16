@@ -209,7 +209,7 @@ nav a:hover {
 
 /*HEBERGEMENT*/
 
-.détails h3 {
+.details h3 {
     font-size: 0.90em;
     color: black;
     font-weight: bold;
@@ -217,14 +217,14 @@ nav a:hover {
     margin-left: 10px;  
 }
 
-.détails p {
+.details p {
     font-size: 0.90em;
     color: black;
     margin-top: -5px;
     margin-left: 10px; 
 }
 
-.étoiles {
+.etoiles {
     font-size: 0.90em;
     margin-top: -5px;
     margin-left: 10px;
@@ -269,7 +269,7 @@ nav a:hover {
 
 .carte {
     display: flex;
-    flex: wrap;
+    flex-wrap: wrap;
     margin: 10px 10px 10px 10px;
 }
 
@@ -372,7 +372,7 @@ color: black;
     margin-bottom: 38px;
 }
 
-.popétoiles {
+.popetoiles {
     font-size: 0.90em;
     margin-top: -5px;
     margin-left: 10px;
@@ -476,8 +476,4 @@ footer h3 {
     text-decoration: none;
     margin-bottom: 12px;
     color: #000;
-}
-  
-.lien-footer:hover {
-    color: #0065FC;
 }
