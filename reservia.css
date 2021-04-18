@@ -139,22 +139,20 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
-.filter-container h2 {
-    font-size: 2em;
-}
-
 .filtres {
-    padding-top: 9px;
+    padding-top: 15px;
     display: flex;
+    font-weight: bold;
+    padding-left: 45px;
 }
 
 .categories {
-    margin-left: 30px;
+    margin-left: 30px; /*inutile pourquoi ?*/
 }
 
 .icone {
     background-color: #deebff;
-    height: 30px;
+    height: 25px;
     width: 30px;
     border-radius: 50%;
     text-align: center;
@@ -164,6 +162,10 @@ nav a:hover {
 
 .filtres a {
     text-decoration: none;
+    color: black;
+    border: 3px #F2F2F2 solid;
+    border-radius: 30px;
+    margin-top: 5px;
 }
 
 .filtres a:hover {
@@ -171,27 +173,34 @@ nav a:hover {
 }
 
 .eco {
-    border: 2px solid #d9d9d9;
-    border-radius: 30px;
-}
-
-.famille {
-    border: 2px solid #d9d9d9;
-    border-radius: 30px;
-}
-
-.romantique {
-    border: 2px solid #d9d9d9;
-    border-radius: 30px;
-}
-
-.animaux {
-    border: 2px solid #d9d9d9;
-    border-radius: 30px;
     line-height: 28px;
     height: 30px;
     display: inline-block;
     padding: 0px 15px 0px 1px;
+}
+
+.famille {
+    line-height: 28px;
+    height: 30px;
+    display: inline-block;
+    padding: 0px 15px 0px 1px;
+    padding-left: 35px;
+}
+
+.romantique {
+    line-height: 28px;
+    height: 30px;
+    display: inline-block;
+    padding: 0px 15px 0px 1px;
+    padding-left: 35px;
+}
+
+.animaux {
+    line-height: 28px;
+    height: 30px;
+    display: inline-block;
+    padding: 0px 15px 0px 1px;
+    padding-left: 35px;
 }
 /*Quelque chose ne va pas au dessus !*/
 
@@ -203,8 +212,8 @@ nav a:hover {
 .info .infos {
     border: 2px solid #F2F2F2;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 3%;
+    height: 3%;
     line-height: 33px;
     text-align: center;
     color: #0065FC;
@@ -245,11 +254,11 @@ nav a:hover {
 
 .hmarseille, .populaires { 
     background-color: #F2F2F2;
-    height: 610px;
+    height: 610px; /*Ne répond pas en pourcentage, pourquoi ?*/
 }
 
 .hmarseille {
-    max-width: 67%;
+    max-width: 65%;
     border-radius: 15px;
 }
 
@@ -282,7 +291,7 @@ nav a:hover {
 
 .carte {
     margin: 10px;
-    height:33vh;
+    height: 33vh;
     width: calc( 33.33% - 20px );
 }
 
@@ -436,7 +445,7 @@ span {
 
 .activitema img {
     width : 100%;
-    height: 460px;
+    height: 525px;
 }
 
 .activitem img {
@@ -506,3 +515,9 @@ footer h3 {
 }
  
 /*MEDIA QUERIES RESPONSIVE*/
+
+@media only screen and (min-width:1200px) {
+    .icone-search {
+        opacity: 0
+    }
+}
