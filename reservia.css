@@ -12,6 +12,7 @@
 /*Utilisation de la police*/
 body {
     font-family: "raleway", Arial, Helvetica, serif, sans-serif;
+    margin: 0;
 }
 
 * {
@@ -65,7 +66,7 @@ body {
 
 nav a:hover {
     border-top: 2px solid #0065FC;
-    padding: 56px;
+    padding: 49px;
     color: #0065FC;
 }
 
@@ -93,6 +94,7 @@ nav a:hover {
 
 .recherche {
     margin-top: 15px;
+    display: flex;
 }
 
 .icone-search {
@@ -131,7 +133,6 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* Quelque chose ne va pas ici !*/
 /*Filtres*/
 .filtres_container {
     display: flex;
@@ -148,12 +149,12 @@ nav a:hover {
 
 .icone {
     background-color: #deebff;
-    height: 25px;
-    width: 30px;
+    height: 28px;
+    width: 32px;
     border-radius: 50%;
     text-align: center;
     color: #0065FC;
-    padding: 3px;
+    padding: 5px;
 }
 
 .filtres a {
@@ -161,7 +162,8 @@ nav a:hover {
     color: black;
     border: 3px #F2F2F2 solid;
     border-radius: 30px;
-    margin-top: 5px;
+    margin-top: -2px;
+    display: block;
 }
 
 .filtres a:hover {
@@ -171,34 +173,30 @@ nav a:hover {
 .eco {
     line-height: 28px;
     height: 30px;
-    display: inline-block;
-    padding: 0px 15px 0px 1px;
+    display: block;
+    padding: 0px 15px 0px 0px;
 }
 
 .famille {
     line-height: 28px;
     height: 30px;
-    display: inline-block;
-    padding: 0px 15px 0px 1px;
-    padding-left: 35px;
+    display: block;
+    padding: 0px 15px 0px 0px;
 }
 
 .romantique {
     line-height: 28px;
     height: 30px;
-    display: inline-block;
-    padding: 0px 15px 0px 1px;
-    padding-left: 35px;
+    display: block;
+    padding: 0px 15px 0px 0px;
 }
 
 .animaux {
     line-height: 28px;
     height: 30px;
-    display: inline-block;
-    padding: 0px 15px 0px 1px;
-    padding-left: 35px;
+    display: block;
+    padding: 0px 15px 0px 0px;
 }
-/*Quelque chose ne va pas au dessus !*/
 
 .info {
     display: flex;
@@ -222,6 +220,9 @@ nav a:hover {
 .bloc {
     display: flex;
     justify-content: space-between;
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 35px;
 }
 
 /*HEBERGEMENT*/
@@ -254,12 +255,12 @@ nav a:hover {
 }
 
 .hmarseille {
-    max-width: 65%;
+    max-width: 67%;
     border-radius: 15px;
 }
 
 .hmarseille h2 {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .lien_cartes, .lien_cartes2 {
@@ -313,7 +314,7 @@ color: black;
 .populaires {
     max-width: 30%;
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 15px;
 }
   
 .titrepop {
@@ -418,6 +419,15 @@ span {
 
 /*Activités à Marseille*/
 
+h6 {
+    margin: 0;
+}
+
+section {
+    max-width: 1250px;
+    margin: auto;
+}
+
 .amarseille {
     margin-top: 70px;
     width: auto;
@@ -441,11 +451,11 @@ span {
 
 .activitema img {
     width : 100%;
-    height: 525px;
+    height: calc( 50vh + 68px);
 }
 
 .activitem img {
-    max-height: 210px;
+    height: 25vh;
 }
 
 .activitem, .activitema {
@@ -456,6 +466,7 @@ span {
 .activitesmarseille {
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
+    margin-bottom: 32px;
 }
 
 .titre-activite {
@@ -468,7 +479,7 @@ span {
 
 footer {
     width: auto;
-    height: 210px;
+    height: 45%;
     background-color: #F2F2F2;
 }
   
@@ -477,25 +488,26 @@ footer {
     display: flex;
     align-items: center;
     display: flex;
-    justify-content: space-around;
 }
 
 .A_propos {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    margin-left: 60px;
 }
   
 .Hebergements {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 230px;
 }
   
 .Assistance {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 230px;
 }
   
 footer h3 {
@@ -512,8 +524,12 @@ footer h3 {
  
 /*MEDIA QUERIES RESPONSIVE*/
 
-@media only screen and (min-width:1200px) {
+@media only screen and (min-width:992px) {
     .icone-search {
         opacity: 0
     }
+}
+
+@media only screen and (min-width:600px) {
+
 }
