@@ -554,4 +554,8 @@ footer h3 {
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
       }
+
+      .icone-search {
+          opacity: 0;
+      }
     }
