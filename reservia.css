@@ -374,7 +374,7 @@ color: black;
 
 .lien_populaire2 img {
     width: 40%;
-    max-height: 60%;
+    max-height: 63%;
     margin: 5px;
     border-top-left-radius: 15px;
     border-top-left-radius: 15px;
@@ -525,11 +525,33 @@ footer h3 {
 /*MEDIA QUERIES RESPONSIVE*/
 
 @media only screen and (min-width:992px) {
+
     .icone-search {
-        opacity: 0
+        opacity: 0;
     }
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (max-width:760px) {
 
-}
+    #bloc_page {
+        width: auto;
+    }
+        
+    nav ul li {
+        border-bottom: 2.5px solid #F2F2F2;
+        padding-bottom: 15px;
+      }
+    
+      .navigation {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 15px;
+        padding-top: 25px;
+      }
+    
+      .navigation:hover {
+        border-top: none;
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+      }
+    }
