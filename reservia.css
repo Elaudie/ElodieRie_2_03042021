@@ -531,31 +531,259 @@ footer h3 {
     }
 }
 
-@media only screen and (max-width:760px) {
+@media only screen and (max-width:768px) {
 
     #bloc_page {
-        width: auto;
+        width: 100%;
     }
-        
-    nav ul li {
+
+    .titre2 {
+        position: relative;
+    }
+      
+    .navigation {
+        border-top: none;
         border-bottom: 2.5px solid #F2F2F2;
         padding-bottom: 15px;
-      }
-    
-      .navigation {
         text-align: center;
         width: 100%;
         padding-bottom: 15px;
         padding-top: 25px;
-      }
-    
-      .navigation:hover {
+    }
+      
+    .navigation:hover {
         border-top: none;
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
-      }
-
-      .icone-search {
-          opacity: 0;
-      }
     }
+      
+    .menu {
+        display: block;
+    }
+      
+    .inscription .recherche {
+        margin-top: 30px;
+    }
+      
+    .info {
+        margin-top: 29px;
+    }
+      
+    .page {
+        padding: 0;
+    }
+      
+    .filtres-container {
+        display: inline-block;
+        margin-top: -20px;
+    }
+      
+    .filtres {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+      
+    .categories {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0;
+        font-size: 13px;
+    }
+      
+    .eco {
+        width: 160px;
+    }
+      
+    .famille {
+        margin-left: 10px;
+    }
+      
+    .infos .info {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+    }
+      
+    .info h6 {
+        font-size: 12px;
+    }
+      
+    .btn {
+        display: none;
+    }
+      
+    .icone-search {
+        position: relative;
+        bottom: 50px;
+        left: 50%;
+        display: block;
+        background-color: #0065FC;
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        line-height: 50px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        font-size: 15px;
+    }
+      
+    .recherche .search {
+        position: relative;
+        right: 5px;
+        margin-right: 0px;
+        width: 50%;
+        height: 50px;
+        border: 1px solid #F2F2F2;
+        font-size: 18px;
+        font-weight: bold;
+    }
+      
+    .inscription {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        bottom: 150px;
+        left: 25px;
+        text-decoration: none;
+        color: #0065fc;
+        font-weight: bold;
+    }
+      
+    .navigation {
+        flex-grow: 1;
+        order: 3;
+        width: 100vw;
+        margin-left: -35px;
+        margin-right: -35px;
+        margin-bottom: 20px;
+    }
+      
+    .menu li {
+        display: block;
+        margin-top: 35px;
+    }
+      
+    .bloc {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: normal;
+    }
+      
+    .etoiles {
+        margin-bottom: 20px;
+    }
+
+    /*hébergements et populaires*/
+
+    .hmarseille {
+        background-color: #F2F2F2;
+        padding: 0;
+    }
+      
+    .hmarseille h2 {
+        margin-left: 20px;
+    }
+      
+    .cartes_populaires .cartes_populaires2 {
+        width: 100vw;
+        margin-left: 0;
+    }
+      
+    .lescartes {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+      
+    .lien_cartes {
+        flex: 0;
+        flex-direction: column;
+        width: auto;
+    }
+      
+    .description {
+        font-size: 0.8em;
+        margin-left: 150px;
+    }
+      
+    .description h3 {
+        font-size: 15px;
+    }
+      
+    .description p {
+        font-size: 0.8em;
+    }
+      
+    .popetoiles {
+        margin-bottom: 20px;
+    }
+      
+    .afficher_plus {
+        margin-top: 25px;
+    }
+
+    /*activités*/
+     
+    .amarseille {
+        display: grid;
+        height: auto;
+        margin-bottom: 25px;
+        justify-content: normal;
+    }
+      
+    .bloc1 {
+        width: auto;
+    }
+     
+    .activitem .activitema img {
+        width: 100%;
+        height: 200px;
+    }
+      
+    .activitesmarseille {
+        margin-bottom: 160px;
+        width: 100%;
+        height: 70px;
+        -moz-margin-start: 62px;
+    }
+      
+    .titre-activite {
+        padding: 8px 0px 5px 20px;
+        border-radius: 0 0 1.25rem 1.25rem;
+        border-color: transparent;
+        box-shadow: 0 0 6px 3px #d8d7d7;
+        margin-top: -12px;
+    }
+
+    /*footer*/
+      
+    footer {
+        height: auto;
+    }
+      
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+    }
+      
+    .A_propos {
+        margin-left: 25px;
+    }
+    
+    .Hebergements {
+        margin-left: 25px;
+        margin-bottom: 0;
+    }
+    
+    .Assistance {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 25px;
+    }
+}
