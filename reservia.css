@@ -148,13 +148,18 @@ nav a:hover {
 
 .icone {
     background-color: #deebff;
-    height: 38px;
-    width: 38px;
+    height: 44px;
+    width: 44px;
     border-radius: 50%;
     text-align: center;
     color: #0065FC;
-    padding: 5px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
 }
+ .cat-description {
+     margin-left: 10px;
+ }
 
 .filtres a {
     text-decoration: none;
@@ -162,7 +167,9 @@ nav a:hover {
     border: 3px #F2F2F2 solid;
     border-radius: 30px;
     margin-top: -2px;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .filtres a:hover {
@@ -172,7 +179,6 @@ nav a:hover {
 .eco {
     line-height: 42px;
     height: 50px;
-    display: block;
     padding: 0px 15px 0px 0px;
 }
 
