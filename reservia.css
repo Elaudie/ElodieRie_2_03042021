@@ -120,7 +120,6 @@ nav a:hover {
 }
 
 .btn {
-    margin-left: -7px;
     width: 130px;
     height: 50px;
     font-size: 17px;
@@ -141,7 +140,7 @@ nav a:hover {
 }
 
 .filtres {
-    padding-top: 15px;
+    padding-top: 5px;
     display: flex;
     font-weight: bold;
     padding-left: 45px;
@@ -149,8 +148,8 @@ nav a:hover {
 
 .icone {
     background-color: #deebff;
-    height: 28px;
-    width: 32px;
+    height: 38px;
+    width: 38px;
     border-radius: 50%;
     text-align: center;
     color: #0065FC;
@@ -171,29 +170,29 @@ nav a:hover {
 }
 
 .eco {
-    line-height: 28px;
-    height: 30px;
+    line-height: 42px;
+    height: 50px;
     display: block;
     padding: 0px 15px 0px 0px;
 }
 
 .famille {
-    line-height: 28px;
-    height: 30px;
+    line-height: 42px;
+    height: 50px;
     display: block;
     padding: 0px 15px 0px 0px;
 }
 
 .romantique {
-    line-height: 28px;
-    height: 30px;
+    line-height: 42px;
+    height: 50px;
     display: block;
     padding: 0px 15px 0px 0px;
 }
 
 .animaux {
-    line-height: 28px;
-    height: 30px;
+    line-height: 42px;
+    height: 50px;
     display: block;
     padding: 0px 15px 0px 0px;
 }
@@ -225,6 +224,17 @@ nav a:hover {
     padding-top: 35px;
 }
 
+.familial {
+    margin-left: 40px;
+}
+
+.romance {
+    margin-left: 40px;
+}
+
+.animal {
+    margin-left: 40px;
+}
 /*HEBERGEMENT*/
 
 .details h3 {
