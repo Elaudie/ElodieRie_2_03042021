@@ -267,11 +267,11 @@ nav a:hover {
 
 .hmarseille, .populaires { 
     background-color: #F2F2F2;
-    height: 610px; /*Ne répond pas en pourcentage, pourquoi ?*/
+    height: 610px; /*Ne répond pas en pourcentage*/
 }
 
 .hmarseille {
-    max-width: 67%;
+    width: 67%;
     border-radius: 15px;
 }
 
@@ -328,7 +328,7 @@ color: black;
 /*populaires*/
 
 .populaires {
-    max-width: 30%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
@@ -355,13 +355,12 @@ color: black;
   
 .cartes_populaires {
     display: flex;
-    width: 94%;
+    width: 100%;
     height: 100%;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
     margin-top: 7px;
-    margin-left: 10px;
 }
 
 .cartes_populaires2 {
@@ -696,7 +695,7 @@ footer h3 {
     }
 
     /*hébergements et populaires*/
-
+    
     .hmarseille {
         background-color: #F2F2F2;
         padding: 0;
@@ -705,22 +704,45 @@ footer h3 {
     .hmarseille h2 {
         margin-left: 20px;
     }
+
+    .populaires {
+        display: block;
+        margin-bottom: 50px;
+        width: 500px; /*ne répond pas au pourcentage*/
+    }
       
-    .cartes_populaires .cartes_populaires2 {
+    .cartes_populaires, .cartes_populaires2 {
         width: 100vw;
         margin-left: 0;
     }
-      
+
+    .cartes_populaires img {
+        width: 45vw;
+        height: 68%;
+    }
+
+    .cartes_populaires2 img {
+        width: 45vw;
+        height: 38vw;
+    }
+
     .lescartes {
         display: flex;
         flex-direction: column;
         padding: 0;
+        width: 140%;
+        margin: 20px;
     }
       
-    .lien_cartes {
+    .lien_cartes, .lien_cartes2 {
         flex: 0;
         flex-direction: column;
-        width: auto;
+        width: 100%;
+    }
+
+    .lien_populaire, .lien_populaire2 {
+        flex: 0;
+        flex-direction: column;
     }
       
     .description {
