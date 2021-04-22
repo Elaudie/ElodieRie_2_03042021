@@ -535,6 +535,8 @@ footer h3 {
 
     #bloc_page {
         width: 100%;
+        margin: auto;
+        display: block;
     }
 
     .titre2 {
@@ -727,21 +729,34 @@ footer h3 {
     }
 
     /*activités*/
-     
+    .titrea {
+        margin-bottom: 30px;
+    } 
+
     .amarseille {
-        display: grid;
+        display: block;
         height: auto;
         margin-bottom: 25px;
         justify-content: normal;
     }
       
     .bloc1 {
-        width: auto;
+        width: 100%;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .blocactivite {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -15px;
+        margin-bottom: -10px;
     }
      
-    .activitem .activitema img {
+    .activitem, .activitema img {
         width: 100%;
-        height: 200px;
+        max-height: 190px;    
     }
       
     .activitesmarseille {
