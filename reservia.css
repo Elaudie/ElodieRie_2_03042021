@@ -12,7 +12,6 @@
 /*Utilisation de la police*/
 body {
     font-family: "raleway", Arial, Helvetica, serif, sans-serif;
-    margin: 0;
 }
 
 * {
@@ -22,7 +21,6 @@ body {
 
 #bloc_page {
     width: 100%;
-    margin: auto;
     padding: 0.5%;
     box-sizing: content-box;
 }
@@ -31,7 +29,6 @@ body {
 
 .header {
     width: 90%;
-    padding: 10%;
 }
 
 .navbar {
@@ -39,7 +36,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 35px;
+    margin-top: -14px;
 }
 
 /*logo*/
@@ -183,7 +180,6 @@ nav a:hover {
     color: black;
     border: 3px #F2F2F2 solid;
     border-radius: 30px;
-    margin-top: -2px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -333,8 +329,9 @@ nav a:hover {
 }
 
 .afficher_plus {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 50px;
+    margin-bottom: 20px;
 }
 
 .plus {
@@ -517,7 +514,6 @@ footer {
 }
   
 .footer-container {
-    margin-top: 70px;
     display: flex;
     align-items: flex-start;
     display: flex;
@@ -533,12 +529,14 @@ footer {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 220px;
 }
   
 .Assistance {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 220px;
 }
   
 footer h3 {
