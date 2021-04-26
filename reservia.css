@@ -754,7 +754,7 @@ footer h3 {
         display: flex;
         flex-direction: column;
         padding: 0;
-        width: 140%;
+        width: 100%;
         margin: 20px;
     }
       
