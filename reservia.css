@@ -106,6 +106,10 @@ nav a:hover {
 
 /*recherche*/
 
+.rechercher {
+    margin-top: -20px;
+}
+
 .recherche {
     margin-top: 15px;
     display: flex;
@@ -219,6 +223,7 @@ nav a:hover {
 .info {
     display: flex;
     align-items: center;
+    margin-top: 15px;
 }
       
 .info .infos {
@@ -369,23 +374,27 @@ color: black;
   
 .cartes_populaires {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
     margin-top: 7px;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .cartes_populaires2 {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     display: flex;
-    width: 94%;
+    width: 90%;
     height: 100%;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .lien_populaire, .lien_populaire2 {
@@ -403,8 +412,8 @@ color: black;
 
 .lien_populaire2 img {
     width: 40%;
-    max-height: 63%;
-    margin: 5px;
+    max-height: 70%;
+    margin: 3px;
     border-top-left-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -523,6 +532,7 @@ footer {
 .A_propos {
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
 }
   
 .Hebergements {
