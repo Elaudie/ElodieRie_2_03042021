@@ -43,6 +43,7 @@ body {
 .logo {
     padding: 25px 0 0 0;
     height: 100px;
+    width: 25%;
 }
 
 /*menu navigation*/
@@ -368,7 +369,7 @@ color: black;
   
 .pop {
     justify-content: space-between;
-    height: 23vh;
+    max-height: 23%;
     width: calc( 100% - 20px );
 }
   
@@ -381,20 +382,18 @@ color: black;
     border-radius: 15px;
     margin-top: 7px;
     display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin: 30px auto;
 }
 
 .cartes_populaires2 {
     margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
     display: flex;
     width: 90%;
     height: 100%;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
+    margin: 30px auto;
 }
 
 .lien_populaire, .lien_populaire2 {
@@ -412,7 +411,6 @@ color: black;
 
 .lien_populaire2 img {
     width: 40%;
-    max-height: 64%;
     margin: 3px;
     border-top-left-radius: 15px;
     border-top-left-radius: 15px;
@@ -526,7 +524,6 @@ footer {
     display: flex;
     align-items: flex-start;
     display: flex;
-    margin-right: 20%;
 }
 
 .A_propos {
@@ -572,10 +569,24 @@ footer h3 {
 
 @media only screen and (max-width:768px) {
 
+    .bloc {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 
+    }
+        
+    .page { /*responsive ?*/
+        width: 100;
+        max-width: 1250px;
+        margin : auto;
+    }    
+
     #bloc_page {
         width: 100%;
+        box-sizing: content-box;
         margin: auto;
         display: block;
+        max-width: 1250px; /*responsive?*/
     }
 
     .titre2 {
@@ -733,17 +744,19 @@ footer h3 {
         display: block;
         margin-bottom: 50px;
         width: 500px; /*ne répond pas au pourcentage*/
+        height: 920px;
     }
       
     .cartes_populaires, .cartes_populaires2 {
-        width: 100vw;
+        width: 100%;
         margin-left: 0;
         margin-bottom: 20px;
+        height: 23vh;
     }
 
     .cartes_populaires img {
-        width: 45vw;
-        height: 68%;
+        width: 45%;
+        height: 96%;
     }
 
     .cartes_populaires2 img {
@@ -765,17 +778,17 @@ footer h3 {
     }
 
     .lien_populaire, .lien_populaire2 {
-        flex: 0;
-        flex-direction: column;
         display: flex;
         height: 100%;
         justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
       
     .description {
         font-size: 0.8em;
         margin-left: 150px;
-        width: calc(60% - 10px)
+        display : block;
     }
       
     .description h3 {
