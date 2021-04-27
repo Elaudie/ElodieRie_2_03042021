@@ -376,7 +376,7 @@ color: black;
 .cartes_populaires {
     display: flex;
     width: 90%;
-    height: 100%;
+    height: 140px;;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
@@ -389,7 +389,7 @@ color: black;
     margin-top: 30px;
     display: flex;
     width: 90%;
-    height: 100%;
+    height: 140px;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
@@ -412,6 +412,7 @@ color: black;
 .lien_populaire2 img {
     width: 40%;
     margin: 3px;
+    height: 68%;
     border-top-left-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
