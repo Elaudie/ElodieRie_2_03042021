@@ -569,13 +569,15 @@ footer h3 {
 }
  
             /*MEDIA QUERIES*/
-            
-@media only screen and (min-width: 1200px) {
 
-
+@media only screen and (min-width: 1281px) {
+    
+    .carte {
+        height: 25vh;
+    }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
               
     .cartes_populaires, .cartes_populaires2 {
         margin: 40px 5px 0;
@@ -606,7 +608,7 @@ footer h3 {
         margin: 0 
     }
         
-    .page { /*responsive ?*/
+    .page { 
         width: 100;
         max-width: 1250px;
         margin : auto;
@@ -617,7 +619,7 @@ footer h3 {
         box-sizing: content-box;
         margin: auto;
         display: block;
-        max-width: 1250px; /*responsive?*/
+        max-width: 1250px; 
     }
 
     .titre2 {
@@ -806,6 +808,7 @@ footer h3 {
       
     .hmarseille h2 {
         margin-left: 20px;
+        margin-top: 40px;
     }
 
     .titrepop {
@@ -830,6 +833,7 @@ footer h3 {
         margin-left: 0;
         margin-bottom: 20px;
         max-height: 300px;
+        margin-top: -3px;
     }
 
     .cartes_populaires img {
@@ -848,6 +852,7 @@ footer h3 {
         width: 100%;
         margin: 0px;
         padding: 20px;
+        margin-top: -25px;
     }
       
     .lien_cartes, .lien_cartes2 {
