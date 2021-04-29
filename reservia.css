@@ -813,7 +813,11 @@ footer h3 {
 
     .cartes_populaires img {
         width: 45%;
-        height: 96%;
+        height: 94%;
+    }
+
+    .lien_populaire2 img {
+        height: 94%;
     }
 
     .lescartes {
