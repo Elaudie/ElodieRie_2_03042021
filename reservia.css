@@ -777,7 +777,7 @@ footer h3 {
     } 
 
     .hmarseille {
-        background-color: #F2F2F2;
+        background-color: white;
         padding: 0;
         width: 100%;
     }
@@ -801,7 +801,7 @@ footer h3 {
         margin: 0px;
         width: 100%;
         margin-bottom: 20px;
-        max-height: 300px;
+        max-height: 215px;
     }
       
     .cartes_populaires, .cartes_populaires2 {
@@ -860,6 +860,11 @@ footer h3 {
       
     .popetoiles {
         margin-top: 38px;
+    }
+
+    .afficher_plus {
+        margin-top: -45px;
+        margin-left: -5px;
     }
       
     .plus {
