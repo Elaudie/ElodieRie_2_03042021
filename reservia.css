@@ -15,7 +15,6 @@ body {
 }
 
 * {
-    flex-wrap: wrap;
     box-sizing: border-box;
 }
 
@@ -333,6 +332,7 @@ nav a:hover {
     justify-content: space-around;
     margin: 10px;
     padding: 0 10px;
+    flex-wrap: wrap;
 }
 
 .afficher_plus {
@@ -364,6 +364,7 @@ color: black;
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 5px;
+    flex-wrap: wrap;
 }
   
 .titrepop h2 {
@@ -620,6 +621,30 @@ footer h3 {
     .menu {
         display: block;
     }
+
+    .menu ul {
+        flex-wrap: wrap;
+    }
+
+    menu li {
+        width: 20%;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .inscription {
+        order: 2;
+    }
+
+    .chambre {
+        order: 3;
+    }
+
+    .activ {
+        order: 4;
+    }
       
     .inscription .recherche {
         margin-top: 30px;
@@ -643,17 +668,21 @@ footer h3 {
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+        padding: 5px 0 0;
+    }
+
+    .flitres > div {
+        margin-top: 15px;
     }
       
     .categories {
         display: block;
         margin-top: 20px;
-        margin-left: 0;
         font-size: 13px;
     }
       
-    .eco {
-        width: 160px;
+    .familial, .romance, .animal {
+        margin-left: 5px;
     }
       
     .famille {
@@ -676,24 +705,22 @@ footer h3 {
     }
       
     .icone-search {
-        position: relative;
-        bottom: 50px;
-        left: 50%;
-        display: block;
+        display: inline-block;
         background-color: #0065FC;
         height: 50px;
         width: 50px;
-        border-radius: 10px;
-        line-height: 50px;
+        border-radius: 0 10px 10px 0;
         border: none;
         cursor: pointer;
         color: #fff;
-        font-size: 15px;
+        font-size: 25px;
+        margin: 0;
+        padding: 10px;
     }
       
     .recherche .search {
         position: relative;
-        right: 5px;
+        right: 0px;
         margin-right: 0px;
         width: 50%;
         height: 50px;
