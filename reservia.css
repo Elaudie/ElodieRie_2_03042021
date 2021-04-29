@@ -41,9 +41,10 @@ body {
 
 /*logo*/
 .logo {
-    padding: 25px 0 0 0;
     height: 100px;
-    width: 25%;
+    width: 100%;
+    font-size: 5em;
+    padding-right: 500px;
 }
 
 /*menu navigation*/
@@ -741,6 +742,7 @@ footer h3 {
     .hmarseille {
         background-color: #F2F2F2;
         padding: 0;
+        width: 100%;
     }
       
     .hmarseille h2 {
@@ -750,15 +752,23 @@ footer h3 {
     .populaires {
         display: block;
         margin-bottom: 50px;
-        width: 500px; /*ne répond pas au pourcentage*/
+        width: 100%; 
         height: 920px;
+        padding: 0 20px;
+    }
+
+    .carte {
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+        max-height: 300px;
     }
       
     .cartes_populaires, .cartes_populaires2 {
         width: 100%;
         margin-left: 0;
         margin-bottom: 20px;
-        height: 23vh;
+        max-height: 300px;
     }
 
     .cartes_populaires img {
@@ -775,7 +785,8 @@ footer h3 {
         flex-direction: column;
         padding: 0;
         width: 100%;
-        margin: 20px;
+        margin: 0px;
+        padding: 20px;
     }
       
     .lien_cartes, .lien_cartes2 {
@@ -794,7 +805,8 @@ footer h3 {
       
     .description {
         font-size: 0.8em;
-        margin-left: 150px;
+        margin: 0;
+        max-width: 50%;
         display : block;
     }
       
@@ -848,18 +860,18 @@ footer h3 {
     }
       
     .activitesmarseille {
-        margin-bottom: 160px;
+        margin-bottom: 32px;
         width: 100%;
-        height: 70px;
+        height: auto;
         -moz-margin-start: 62px;
     }
       
     .titre-activite {
-        padding: 8px 0px 5px 20px;
+        padding: 20px;
         border-radius: 0 0 1.25rem 1.25rem;
         border-color: transparent;
-        box-shadow: 0 0 6px 3px #d8d7d7;
-        margin-top: -12px;
+        box-shadow: none;
+        margin-top: 0;
     }
 
     /*footer*/
