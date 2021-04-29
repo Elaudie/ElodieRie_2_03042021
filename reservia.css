@@ -569,8 +569,13 @@ footer h3 {
 }
  
             /*MEDIA QUERIES*/
+            
+@media only screen and (min-width: 1200px) {
 
-@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
               
     .cartes_populaires, .cartes_populaires2 {
         margin: 40px 5px 0;
