@@ -422,7 +422,7 @@ color: black;
     margin: 3px;
     border-top-left-radius: 15px;
     border-top-left-radius: 15px;
-    height: 63%;
+    height: 95%;
     border-bottom-left-radius: 15px;
     object-fit: cover;
 }
@@ -431,6 +431,7 @@ color: black;
     display: flex;
     margin-top: -155px;
     margin-left: 150px;
+    flex-wrap: wrap;
 }
   
 .description h3 {
@@ -567,7 +568,23 @@ footer h3 {
     color: #000;
 }
  
-/*MEDIA QUERIES RESPONSIVE*/
+            /*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1280px) {
+              
+    .cartes_populaires, .cartes_populaires2 {
+        margin: 40px 5px 0;
+    }
+
+    .cartes_populaires2 img {
+        height: 95%;
+    }
+
+    .pop {
+        align-items: center;
+        flex-direction: row;
+    }
+}
 
 @media only screen and (min-width:992px) {
 
@@ -792,7 +809,6 @@ footer h3 {
 
     .populaires {
         display: block;
-        margin-bottom: 50px;
         width: 100%; 
         padding: 0 20px;
     }
@@ -875,7 +891,8 @@ footer h3 {
 
     /*activités*/
     .titrea {
-        margin-bottom: 30px;
+        margin-bottom: 35px;
+        margin-left: 15px;
     } 
 
     .amarseille {
@@ -883,6 +900,7 @@ footer h3 {
         height: auto;
         margin-bottom: 25px;
         justify-content: normal;
+        margin-top: -25px;
     }
       
     .bloc1 {
