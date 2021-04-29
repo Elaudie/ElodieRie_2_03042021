@@ -631,7 +631,10 @@ footer h3 {
     }
 
     .logo {
+        padding: 0;
+        margin-left: -25px;
         order: 1;
+        margin-top: -40px;
     }
 
     .inscription {
@@ -683,6 +686,7 @@ footer h3 {
       
     .familial, .romance, .animal {
         margin-left: 5px;
+        margin-bottom: 5px;
     }
       
     .famille {
@@ -735,6 +739,8 @@ footer h3 {
         position: relative;
         bottom: 150px;
         left: 25px;
+        margin-top: -23px;
+        margin-right: -149px;
         text-decoration: none;
         color: #0065fc;
         font-weight: bold;
@@ -742,8 +748,7 @@ footer h3 {
       
     .navigation {
         flex-grow: 1;
-        order: 3;
-        width: 100vw;
+        width: 100%;
         margin-left: -35px;
         margin-right: -35px;
         margin-bottom: 20px;
@@ -759,13 +764,18 @@ footer h3 {
         flex-direction: column-reverse;
         align-items: normal;
     }
-      
-    .etoiles {
-        margin-bottom: 20px;
-    }
+
+    .eco {
+        margin-left: 5px;
+    }  
+   
 
     /*hébergements et populaires*/
     
+    .etoiles {
+        margin-bottom: 20px;
+    } 
+
     .hmarseille {
         background-color: #F2F2F2;
         padding: 0;
@@ -776,11 +786,14 @@ footer h3 {
         margin-left: 20px;
     }
 
+    .titrepop {
+        margin-left: -7px;
+    }
+
     .populaires {
         display: block;
         margin-bottom: 50px;
         width: 100%; 
-        height: 920px;
         padding: 0 20px;
     }
 
@@ -801,10 +814,6 @@ footer h3 {
     .cartes_populaires img {
         width: 45%;
         height: 96%;
-    }
-
-    .cartes_populaires2 img {
-        width: calc(100% - 10px)
     }
 
     .lescartes {
@@ -832,13 +841,13 @@ footer h3 {
       
     .description {
         font-size: 0.8em;
-        margin: 0;
         max-width: 50%;
         display : block;
     }
       
     .description h3 {
         font-size: 15px;
+        margin-top: 45px;
     }
       
     .description p {
@@ -846,7 +855,7 @@ footer h3 {
     }
       
     .popetoiles {
-        margin-bottom: 20px;
+        margin-top: 38px;
     }
       
     .plus {
