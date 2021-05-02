@@ -21,7 +21,7 @@ body {
 #bloc_page {
     width: 100%;
     padding: 0.5%;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 /*header*/
@@ -31,19 +31,14 @@ body {
 }
 
 .navbar {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: block;
     margin-top: -14px;
 }
 
 /*logo*/
 .logo {
-    height: 100px;
-    width: 100%;
-    font-size: 5em;
-    padding-right: 500px;
+    height: 100%;
+    width: auto;
 }
 
 /*menu navigation*/
@@ -52,14 +47,52 @@ body {
     justify-content: space-around;
     text-decoration: none;
     list-style-type: none;
-    display: flex;
     margin: 0;
     height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	
+	max-width: 1250px;
+    margin: auto;
 }
 
-.menu li {
-    display: inline-block;
-    height: 100%;
+.menu ul > li {
+	width: 25%;
+}
+
+.menu li.lilogo {
+	order: 1;
+}
+.menu li.lih {
+	order: 2;
+}
+.menu li.lia {
+	order: 3;
+}
+.menu li.lii {
+	order: 4;
+}
+
+
+@media only screen and (max-width:992px) {
+	.menu li.lilogo {
+		order: 1;
+		width: 23%;
+	}
+	.menu li.lii {
+		order: 2;
+		width: 70%;
+	}
+	.menu li.lih {
+		order: 3;
+		width: 48%;
+	}
+	.menu li.lia {
+		order: 4;
+		width: 48%;
+	}
+	
 }
 
 .menu a {
@@ -237,15 +270,9 @@ nav a:hover {
     justify-content: center;
     text-align: center;
 }
-
-.infos {
-    font-size: 15px;
-    padding-top: 4px;
-}
       
 .info p {
     margin-left: 10px;
-    font-size: 12px;
 }
 
 .bloc {
@@ -475,7 +502,7 @@ h6 {
     margin: 0;
 }
 
-section {
+.largeur {
     max-width: 1250px;
     margin: auto;
 }
@@ -576,7 +603,7 @@ footer h3 {
  
             /*MEDIA QUERIES*/
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1281px) {
     
     .carte {
         height: 20vh;
@@ -615,7 +642,7 @@ footer h3 {
     }
         
     .page { 
-        width: 100%;
+        width: 100;
         max-width: 1250px;
         margin : auto;
     }    
@@ -729,7 +756,7 @@ footer h3 {
         line-height: 25px;
         font-size: 10px;
     }
-
+      
     .info h6 {
         font-size: 12px;
     }
@@ -747,9 +774,9 @@ footer h3 {
         border: none;
         cursor: pointer;
         color: #fff;
-        font-size: 18px;
+        font-size: 25px;
         margin: 0;
-        padding: 15px;;
+        padding: 10px;
     }
       
     .recherche .search {
@@ -849,7 +876,6 @@ footer h3 {
 
     .lien_populaire2 img {
         height: 94%;
-        width: 45%;
     }
 
     .lescartes {
@@ -943,6 +969,7 @@ footer h3 {
         margin-bottom: 32px;
         width: 100%;
         height: auto;
+        -moz-margin-start: 62px;
     }
       
     .titre-activite {
@@ -981,3 +1008,4 @@ footer h3 {
         margin-left: 25px;
     }
 }
+
