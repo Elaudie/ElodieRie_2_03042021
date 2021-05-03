@@ -40,12 +40,12 @@ body {
 .logo {
     height: 100%;
     width: auto;
+    padding-top: 20px;
 }
 
 /*menu navigation*/
 .menu ul {
     align-items: center;
-    justify-content: space-around;
     text-decoration: none;
     list-style-type: none;
     margin: 0;
@@ -53,26 +53,33 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
-	
 	max-width: 1250px;
     margin: auto;
 }
 
-.menu ul > li {
-	width: 25%;
-}
-
 .menu li.lilogo {
 	order: 1;
+    width: 50%;
 }
 .menu li.lih {
 	order: 2;
+    width: 15%
 }
 .menu li.lia {
 	order: 3;
+    width: 15%
 }
 .menu li.lii {
 	order: 4;
+    width: 15%;
+}
+
+.activ {
+    padding: 0 62px;
+}
+
+.chambre {
+    padding: 0 40px;
 }
 
 
@@ -102,11 +109,12 @@ body {
     display: flex;
     align-items: center;
     border-top: 2px solid #fff;
+    padding-top: 40px;
+    margin-top: -25px;
 }
 
 .navigation {
     color: black;
-    padding: 0 50px;
 }
 
 nav a:hover {
@@ -118,6 +126,7 @@ nav a:hover {
 .nav {
     height: 100%;
 }
+
 
 /*S'inscrire*/
 .inscription {
@@ -300,20 +309,20 @@ nav a:hover {
     color: black;
     font-weight: bold;
     margin-top: -3px;
-    margin-left: 10px;  
+    margin-left: 15px;  
 }
 
 .details p {
     font-size: 0.90em;
     color: black;
     margin-top: -10px;
-    margin-left: 10px; 
+    margin-left: 15px; 
 }
 
 .etoiles {
     font-size: 0.90em;
     margin-top: -10px;
-    margin-left: 10px;
+    margin-left: 15px;
     color: #0065fc; 
 }
 
@@ -410,7 +419,7 @@ color: black;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
-    margin-top: 7px;
+    margin-top: 20px;
     display: flex;
 }
 
@@ -594,7 +603,7 @@ footer h3 {
 @media only screen and (min-width: 1281px) {
     
     .carte {
-        height: 20vh;
+        height: 28vh;
     }
 }
 
