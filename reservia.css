@@ -160,7 +160,7 @@ nav a:hover {
 }
 
 .icone-search {
-    display: none;
+    opacity:0
 }
 
 .search {
@@ -219,6 +219,7 @@ nav a:hover {
 }
  .cat-description {
      margin-left: 10px;
+     white-space: nowrap;
  }
 
 .filtres a {
@@ -459,9 +460,6 @@ color: black;
 }
   
 .description {
-    display: flex;
-    margin-top: -155px;
-    margin-left: 150px;
     flex-wrap: wrap;
 }
   
@@ -607,6 +605,16 @@ footer h3 {
     }
 }
 
+@media only screen and (min-width: 950px) {
+
+    .description {
+        display: flex;
+        margin-top: -155px;
+        margin-left: 150px;
+    }
+}
+
+
 @media only screen and (max-width: 1280px) {
               
     .cartes_populaires, .cartes_populaires2 {
@@ -623,10 +631,72 @@ footer h3 {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width: 950px) and (max-width: 1130px) {
+
+    .icone-search {
+        opacity: 0
+    }
+
+    .description h3 {
+        font-size: 14px;
+        margin-left: -20px;
+    }
+
+    .description p{
+        font-size: 13px;
+        margin-left: -20px;
+    }
+
+    .popetoiles {
+        margin-left: -16px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 950px) {
 
     .icone-search {
         opacity: 0;
+    }
+    
+    .carte {
+        width: calc( 50% - 20px );
+    }
+
+    .lien_populaire img {
+        height: 60%;
+        width: 100%;
+        padding-right: 8px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        object-fit: cover; 
+        border-bottom-left-radius: none;
+    }
+
+    .cartes_populaires {
+        height: 190px;
+        margin: 20px 5px 0;
+    }
+
+    .description {
+        margin-top: -65px;
+        flex-wrap: wrap;
+    }
+
+    .description h3 {
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .description p {
+        margin-left: 20px;
+        margin-top: -15px
+    }
+
+    .popetoiles {
+        margin-left: 20px;
+        margin-top: -12px;
+        font-size: 0.80em;
     }
 }
 
@@ -656,20 +726,29 @@ footer h3 {
         position: relative;
     }
       
+    .titre2 h2 {
+        margin-top: 120px;
+    }
+
     .navigation {
         border-top: none;
         border-bottom: 2.5px solid #F2F2F2;
-        padding-bottom: 15px;
         text-align: center;
         width: 100%;
-        padding-bottom: 15px;
-        padding-top: 25px;
     }
       
     .navigation:hover {
         border-top: none;
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
+    }
+
+    .activ {
+        padding: 0 70px;
+    }
+
+    .chambre {
+        padding: 0 48px;
     }
       
     .menu {
@@ -682,28 +761,10 @@ footer h3 {
 
     menu li {
         width: 20%;
+        margin: 0;
     }
 
-    .logo {
-        padding: 0;
-        margin-left: -25px;
-        order: 1;
-        margin-top: -40px;
-    }
-
-    .inscription {
-        order: 2;
-    }
-
-    .chambre {
-        order: 3;
-    }
-
-    .activ {
-        order: 4;
-    }
-      
-    .inscription .recherche {
+       .inscription .recherche {
         margin-top: 30px;
     }
       
@@ -763,6 +824,7 @@ footer h3 {
     }
       
     .icone-search {
+        opacity: 1;
         display: inline-block;
         background-color: #0065FC;
         height: 50px;
@@ -803,9 +865,6 @@ footer h3 {
     .navigation {
         flex-grow: 1;
         width: 100%;
-        margin-left: -35px;
-        margin-right: -35px;
-        margin-bottom: 20px;
     }
       
     .menu li {
@@ -821,7 +880,7 @@ footer h3 {
 
     .eco {
         margin-left: 5px;
-    }  
+    }
    
 
     /*hébergements et populaires*/
@@ -858,7 +917,7 @@ footer h3 {
         max-height: 215px;
     }
       
-    .cartes_populaires, .cartes_populaires2 {
+    .cartes_populaires {
         width: 100%;
         margin-left: 0;
         margin-bottom: 20px;
@@ -868,10 +927,6 @@ footer h3 {
 
     .cartes_populaires img {
         width: 45%;
-        height: 94%;
-    }
-
-    .lien_populaire2 img {
         height: 94%;
     }
 
@@ -891,10 +946,9 @@ footer h3 {
         width: 100%;
     }
 
-    .lien_populaire, .lien_populaire2 {
+    .lien_populaire {
         display: flex;
         height: 100%;
-        justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: row;
     }
@@ -906,16 +960,19 @@ footer h3 {
     }
       
     .description h3 {
-        font-size: 15px;
-        margin-top: 45px;
+        margin:0;
+        padding-top: 15px;
     }
       
     .description p {
-        font-size: 0.8em;
+        padding-top: 20px;
+        margin-left: -1px;
     }
       
     .popetoiles {
-        margin-top: 38px;
+        margin-top: 32px;
+        margin-left: -1px;
+        font-size: 1.3em;
     }
 
     .afficher_plus {
