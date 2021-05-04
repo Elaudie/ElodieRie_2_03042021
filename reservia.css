@@ -610,7 +610,7 @@ footer h3 {
 }
 
 @media only screen and (min-width: 1500px) {
-    
+
     .cartes {
         height: 25vh
     }
@@ -839,7 +839,7 @@ footer h3 {
         background-color: #0065FC;
         height: 50px;
         width: 50px;
-        border-radius: 0 10px 10px 0;
+        border-radius: 10px 10px 10px 10px;
         border: none;
         cursor: pointer;
         color: #fff;
@@ -862,11 +862,6 @@ footer h3 {
     .inscription {
         display: flex;
         flex-direction: row-reverse;
-        position: relative;
-        bottom: 150px;
-        left: 25px;
-        margin-top: -23px;
-        margin-right: -149px;
         text-decoration: none;
         color: #0065fc;
         font-weight: bold;
@@ -1033,7 +1028,6 @@ footer h3 {
         margin-bottom: 32px;
         width: 100%;
         height: auto;
-        -moz-margin-start: 62px;
     }
       
     .titre-activite {
@@ -1059,17 +1053,20 @@ footer h3 {
       
     .A_propos {
         margin-left: 25px;
+        width: 33%;
     }
     
     .Hebergements {
         margin-left: 25px;
         margin-bottom: 0;
+        width: 33%;
     }
     
     .Assistance {
         display: flex;
         align-items: flex-start;
         margin-left: 25px;
+        width: 33%;
     }
 }
 
