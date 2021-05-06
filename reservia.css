@@ -21,8 +21,9 @@ body {
 
 #bloc_page {
     width: 100%;
-    padding: 0.5%;
     box-sizing: border-box;
+    max-width: 1250px;
+    margin: auto;
 }
 
 /*header*/
@@ -338,6 +339,7 @@ nav a:hover {
 
 .hmarseille h2 {
     margin-left: 30px;
+    min-height: 55px;
 }
 
 .lien_cartes, .lien_cartes2 {
@@ -364,16 +366,14 @@ nav a:hover {
 }
 
 .carte {
-    margin: 10px;
-    height: 33vh;
+    height: 26vh;
     width: calc( 33.33% - 20px );
 }
 
 .lescartes {
     display: flex;
     justify-content: space-around;
-    margin: 10px;
-    padding: 0 10px;
+    padding: 0 20px;
     flex-wrap: wrap;
 }
 
@@ -405,6 +405,7 @@ color: black;
     font-size: 25px;
     width: 100%;
     justify-content: space-between;
+    min-width: 55px;
 }
   
 .pop {
@@ -438,6 +439,7 @@ color: black;
 
 .lien_populaire, .lien_populaire2 {
     text-decoration: none;
+    width: 100%;
 }
   
 .lien_populaire img {
@@ -499,13 +501,17 @@ h6 {
 }
 
 .largeur {
-    max-width: 1250px;
+    max-width: 1290px;
     margin: auto;
+    padding: 0 20px;
 }
 
 .amarseille {
     margin-top: 70px;
     width: auto;
+    padding: 0 20px;
+    max-width: 1290px;
+    margin: auto;
 }
 
 .activites {
@@ -562,26 +568,28 @@ footer {
     display: flex;
     align-items: flex-start;
     display: flex;
+    margin: auto;
+    max-width: 1250px;
 }
 
 .A_propos {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    width: 33%;
 }
   
 .Hebergements {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    margin-left: 220px;
+    width: 33%;
 }
   
 .Assistance {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    margin-left: 220px;
+    width: 33%
 }
   
 footer h3 {
@@ -684,7 +692,7 @@ footer h3 {
     }
 
     .cartes_populaires {
-        height: 210px;
+        height: 225px;
         margin: 20px 5px 0;
     }
 
