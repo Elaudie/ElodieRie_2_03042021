@@ -34,7 +34,6 @@ body {
 
 .navbar {
     display: block;
-    margin-top: -14px;
 }
 
 /*logo*/
@@ -83,35 +82,13 @@ body {
     padding: 0 40px;
 }
 
-
-@media only screen and (max-width:992px) {
-	.menu li.lilogo {
-		order: 1;
-		width: 23%;
-	}
-	.menu li.lii {
-		order: 2;
-		width: 70%;
-	}
-	.menu li.lih {
-		order: 3;
-		width: 48%;
-	}
-	.menu li.lia {
-		order: 4;
-		width: 48%;
-	}
-	
-}
-
 .menu a {
     text-decoration: none;
     height: 100%;
     display: flex;
     align-items: center;
     border-top: 2px solid #fff;
-    padding-top: 40px;
-    margin-top: -25px;
+    padding-top: 5px;
 }
 
 .navigation {
@@ -169,6 +146,7 @@ nav a:hover {
     padding-left: 10px;
     font-weight: bold;
     font-size: 1em;
+    border: 1px solid #f2f2f2;
 }
 
 .gps {
@@ -195,9 +173,13 @@ nav a:hover {
     cursor: pointer;
 }
 
+.search::placeholder{
+    color: black;
+}
+
 /*Filtres*/
 .filtres_container {
-    display: block;
+    display: flex;
     margin-top: 25px;
 }
 
@@ -264,10 +246,17 @@ nav a:hover {
     padding: 0px 15px 0px 0px;
 }
 
+.filtres_container h3 {
+    margin: 0;
+    padding-top: 17px;
+    padding-right: 30px;
+}
+
 .info {
     display: flex;
     align-items: center;
     margin-top: 15px;
+    margin-bottom: 10px;
 }
       
 .info .infos {
@@ -283,6 +272,10 @@ nav a:hover {
       
 .info p {
     margin-left: 10px;
+}
+
+.info i{
+    padding-top: 5px;
 }
 
 .bloc {
@@ -366,7 +359,7 @@ nav a:hover {
 }
 
 .carte {
-    height: 26vh;
+    height: 33vh;
     width: calc( 33.33% - 20px );
 }
 
@@ -417,11 +410,11 @@ color: black;
 .cartes_populaires {
     display: flex;
     width: 100%;
-    height: 130px;
+    height: 125px;
     background-color: white;
     box-shadow: 0 0 6px 3px #d8d7d7;
     border-radius: 15px;
-    margin-top: 20px;
+    margin-top: 17px;
     display: flex;
 }
 
@@ -553,7 +546,7 @@ h6 {
 .titre-activite {
     padding: 0px 0px 15px 20px;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /*footer*/
@@ -569,7 +562,7 @@ footer {
     align-items: flex-start;
     display: flex;
     margin: auto;
-    max-width: 1250px;
+    width: 1250px;
 }
 
 .A_propos {
@@ -647,6 +640,27 @@ footer h3 {
         align-items: center;
         flex-direction: row;
     }
+
+    .menu li.lilogo {
+        order: 1;
+        width: 50%;
+    }
+    .menu li.lih {
+        order: 2;
+        width: 15%;
+        padding-left: 5px;
+    }
+    .menu li.lia {
+        order: 3;
+        width: 15%;
+        padding-left: 5px;
+
+    }
+    .menu li.lii {
+        order: 4;
+        width: 15%;
+        padding-left: 6px;
+    }
 }
 
 @media only screen and (min-width: 950px) and (max-width: 1130px) {
@@ -679,6 +693,7 @@ footer h3 {
     
     .carte {
         width: calc( 50% - 20px );
+        height: 26vh;
     }
 
     .lien_populaire img {
@@ -727,7 +742,6 @@ footer h3 {
     }
         
     .page { 
-        width: 100;
         max-width: 1250px;
         margin : auto;
     }    
@@ -753,6 +767,8 @@ footer h3 {
         border-bottom: 2.5px solid #F2F2F2;
         text-align: center;
         width: 100%;
+        flex-grow: 1;
+        padding-bottom: 5px;
     }
       
     .navigation:hover {
@@ -760,6 +776,23 @@ footer h3 {
         color: #0065FC;
         border-bottom: 2px solid #0065FC;
     }
+
+    .menu li.lilogo {
+		order: 1;
+		width: 50%;
+	}
+	.menu li.lii {
+		order: 2;
+		width: 50%;
+	}
+	.menu li.lih {
+		order: 3;
+		width: 50%;
+	}
+	.menu li.lia {
+		order: 4;
+		width: 50%;
+	}
 
     .activ {
         padding: 0 70px;
@@ -782,7 +815,7 @@ footer h3 {
         margin: 0;
     }
 
-       .inscription .recherche {
+    .inscription .recherche {
         margin-top: 30px;
     }
       
@@ -794,6 +827,12 @@ footer h3 {
         padding: 0;
     }
       
+    .icone-search {
+        font-size: 20px;
+        padding-top: 14px;
+        padding-left: 14px;
+    }
+
     .filtres-container {
         display: inline-block;
         margin-top: -20px;
@@ -873,11 +912,6 @@ footer h3 {
         text-decoration: none;
         color: #0065fc;
         font-weight: bold;
-    }
-      
-    .navigation {
-        flex-grow: 1;
-        width: 100%;
     }
       
     .menu li {
@@ -983,7 +1017,6 @@ footer h3 {
     }
       
     .popetoiles {
-        margin-top: 32px;
         margin-left: -1px;
         font-size: 1.3em;
     }
