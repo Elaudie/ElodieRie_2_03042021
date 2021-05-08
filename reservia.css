@@ -425,7 +425,7 @@ nav a:hover {
 	font-size: 25px;
 	width: 100%;
 	justify-content: space-between;
-	min-width: 55px;
+	min-height: 55px;
 }
 
 .pop {
