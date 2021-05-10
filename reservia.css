@@ -136,6 +136,7 @@ nav a:hover {
 
 .titre2 h2 {
 	font-size: 23px;
+	margin-top: -35px;
 }
 
 .titre2 p {
@@ -272,16 +273,20 @@ nav a:hover {
 	padding-right: 30px;
 }
 
+.eco {
+	margin-right: 40px;
+}
+
 .familial {
-	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .romance {
-	margin-left: 40px;
+	margin-right: 40px;
 }
 
 .animal {
-	margin-left: 40px;
+	margin-right: 40px;
 }
 
 /*Info*/
@@ -379,7 +384,7 @@ nav a:hover {
 }
 
 .carte {
-	height: 33vh;
+	height: 220px;
 	width: calc( 33.33% - 20px);
 }
 
@@ -430,7 +435,6 @@ nav a:hover {
 
 .pop {
 	justify-content: space-between;
-	max-height: 23%;
 	width: 100%;
 }
 
@@ -502,20 +506,21 @@ span {
 /*Activités à Marseille*/
 
 h6 {
-	margin: 0;
+	margin: 0 10px;
 }
 
+.largeurtop,
 .largeur {
-	max-width: 1290px;
+	max-width: 1250px;
 	margin: auto;
-	padding: 0 20px;
+	padding: 0px 20px;
 }
 
 .amarseille {
 	margin-top: 70px;
 	width: auto;
 	padding: 0 20px;
-	max-width: 1290px;
+	max-width: 1250px;
 	margin: auto;
 }
 
@@ -539,11 +544,11 @@ h6 {
 
 .activitema img {
 	width: 100%;
-	height: calc( 50vh + 86px);
+	height: 486px;
 }
 
 .activitem img {
-	height: 25vh;
+	height: 200px;
 }
 
 .activitem,
@@ -559,7 +564,7 @@ h6 {
 }
 
 .titre-activite {
-	padding: 10px 0px 15px 20px;
+	padding: 10px 20px 15px 20px;
 	color: black;
 	font-size: 15px;
 	display: block;
@@ -581,6 +586,7 @@ footer {
 	display: flex;
 	margin: auto;
 	width: 1250px;
+	padding-left: 20px;
 }
 
 .A_propos {
@@ -620,7 +626,7 @@ footer h3 {
 
 @media only screen and (min-width: 1281px) {
 	.carte {
-		height: 28vh;
+		height: 220px;
 	}
 
 	.cartes_populaires {
@@ -634,7 +640,7 @@ footer h3 {
 
 @media only screen and (min-width: 1500px) {
 	.cartes {
-		height: 25vh
+		height: 230px;
 	}
 
 	.footer-container {
@@ -656,7 +662,7 @@ footer h3 {
 
 @media only screen and (max-width: 1280px) {
 	.cartes_populaires {
-		margin: 40px 5px 0;
+		margin: 25px 5px 0;
 	}
 
 	.pop {
@@ -667,6 +673,8 @@ footer h3 {
 	.menu li.lilogo {
 		order: 1;
 		width: 50%;
+		padding-left: 20px;
+		max-width: 1280px;
 	}
 
 	.menu li.lih {
@@ -722,7 +730,7 @@ footer h3 {
 	}
 
 	.carte {
-		height: 28vh;
+		height: 180px;
 	}
 
 	.titre-activite {
@@ -741,6 +749,7 @@ footer h3 {
 
 	.filtres_container h3 {
 		padding-right: 5px;
+		padding-top: 0;
 	}
 
 	.familial,
@@ -751,7 +760,7 @@ footer h3 {
 
 	.carte {
 		width: calc( 50% - 20px);
-		height: 26vh;
+		height: 200px;
 	}
 
 	.lien_populaire img {
@@ -824,7 +833,11 @@ footer h3 {
 	}
 
 	.titre2 h2 {
-		margin-top: 140px;
+		margin-top: 90px;
+	}
+
+	.titrepop h2 {
+		padding-left: 10px;
 	}
 
 	.navigation {
@@ -844,12 +857,13 @@ footer h3 {
 
 	.menu li.lilogo {
 		order: 1;
-		width: 50%;
+		width: 60%;
+		height: 60px;
 	}
 
 	.menu li.lii {
 		order: 2;
-		width: 50%;
+		width: 40%;
 	}
 
 	.menu li.lih {
@@ -860,6 +874,10 @@ footer h3 {
 	.menu li.lia {
 		order: 4;
 		width: 50%;
+	}
+
+	.menu a {
+		height: 40%;
 	}
 
 	.activ {
@@ -879,11 +897,6 @@ footer h3 {
 		width: 100%;
 	}
 
-	menu li {
-		width: 20%;
-		margin: 0;
-	}
-
 	.inscription .recherche {
 		margin-top: 30px;
 	}
@@ -900,9 +913,8 @@ footer h3 {
 		padding: 0;
 	}
 
-	.filtres-container {
-		display: inline-block;
-		margin-top: -20px;
+	.filtres_container {
+		display: block;
 	}
 
 	.filtres {
@@ -926,7 +938,7 @@ footer h3 {
 	.romance,
 	.animal,
 	.economique {
-		margin-left: 5px;
+		margin-right: 20px;
 		margin-bottom: 5px;
 	}
 
@@ -970,7 +982,7 @@ footer h3 {
 		position: relative;
 		right: 0px;
 		margin-right: 0px;
-		width: 50%;
+		width: 100%;
 		height: 50px;
 		border: 1px solid #F2F2F2;
 		font-size: 18px;
@@ -978,21 +990,17 @@ footer h3 {
 	}
 
 	.inscription {
-		display: flex;
-		flex-direction: row-reverse;
-		text-decoration: none;
 		color: #0065fc;
 		font-weight: bold;
+		display: block !important;
+		padding-top: 50px !important;
+		text-align: right;
 	}
 
 	.bloc {
 		display: flex;
 		flex-direction: column-reverse;
 		align-items: normal;
-	}
-
-	.eco {
-		margin-left: 5px;
 	}
 
 	/*hébergements et populaires*/
@@ -1019,13 +1027,14 @@ footer h3 {
 		display: block;
 		width: 100%;
 		padding: 0 20px;
+		border-radius: 0;
 	}
 
 	.carte {
 		margin: 0px;
 		width: 100%;
 		margin-bottom: 20px;
-		max-height: 215px;
+		max-height: 250px;
 	}
 
 	.cartes_populaires {
@@ -1048,7 +1057,7 @@ footer h3 {
 		width: 100%;
 		margin: 0px;
 		padding: 20px;
-		margin-top: -25px;
+		margin-top: -40px;
 	}
 
 	.lien_cartes {
@@ -1094,12 +1103,12 @@ footer h3 {
 		margin-top: 20px;
 		padding: 20px;
 		display: inline-block;
+		margin-left: 8px;
 	}
 
 	/*activités*/
 	.titrea {
 		margin-bottom: 35px;
-		margin-left: 15px;
 	}
 
 	.amarseille {
@@ -1113,21 +1122,18 @@ footer h3 {
 	.bloc1 {
 		width: 100%;
 		justify-content: center;
-		margin: 20px;
+		margin: 0;
 	}
 
 	.blocactivite {
 		width: 100%;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-top: -15px;
-		margin-bottom: -10px;
+		margin: 0;
 	}
 
 	.activitem,
 	.activitema img {
 		width: 100%;
-		max-height: 190px;
+		height: 175px;
 	}
 
 	.activitesmarseille {
@@ -1158,20 +1164,21 @@ footer h3 {
 	}
 
 	.A_propos {
-		margin-left: 25px;
-		width: 33%;
+		width: 100%;
 	}
 
 	.Hebergements {
-		margin-left: 25px;
 		margin-bottom: 0;
-		width: 33%;
+		width: 100%;
 	}
 
 	.Assistance {
 		display: flex;
 		align-items: flex-start;
-		margin-left: 25px;
-		width: 33%;
+		width: 100%;
+	}
+
+	.largeur {
+		padding: 0;
 	}
 }
