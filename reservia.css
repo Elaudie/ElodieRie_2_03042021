@@ -861,6 +861,11 @@ footer h3 {
 		height: 70px;
 	}
 
+	.logo {
+		margin-left: -20px; 
+		margin-top: 10px;
+	}
+
 	.menu li.lii {
 		order: 2;
 		width: 40%;
